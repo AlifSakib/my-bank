@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login</title>
+  </head>
+  <body class="bg-red-300">
+    <header>
+      <h1 class="text-5xl text-center mt-10 underline font-bold">
+        <span class="text-indigo-700">Wellcome</span> To The Bank
+      </h1>
+    </header>
+    <section>
+      <div class="mx-auto bg-lime-200 w-9/12 p-8 mt-10 rounded-2xl">
+        <h1 class="text-3xl mb-3 p-3 font-semibold">Please LogIn</h1>
+        <div>
+          <input
+            class="block px-4 w-9/12 mb-4 p-3 rounded-3xl"
+            type="email"
+            placeholder="Enter Your Email Adress"
+            id="email-field"
+          />
+          <input
+            class="block px-4 w-9/12 mb-4 p-3 rounded-3xl"
+            type="password"
+            placeholder="Enter Your Email Password"
+            id="pass-field"
+          />
+          <button
+            class="bg-white rounded-3xl py-3 px-4 hover:bg-sky-500 font-medium"
+            id="btn-submit"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="./login.js"></script>
+  </body>
+</html>
