@@ -23,7 +23,7 @@
           </div>
           <div class="bg-pink-400 p-8 rounded-md">
             <h1 class="text-2xl">Withdraw</h1>
-            <p class="text-4xl">$00</p>
+            <p class="text-4xl">$<span id="withdraw-amount">00</span></p>
           </div>
           <div class="bg-blue-400 p-8 rounded-md">
             <h1 class="text-2xl">Balance</h1>
@@ -57,11 +57,11 @@
                 class="block px-4 w-9/12 mb-4 p-3 rounded-3xl"
                 type="email"
                 placeholder="$ Enter Withdraw Amount"
-                id="email-field"
+                id="withdraw-field"
               />
               <button
                 class="bg-white rounded-3xl py-3 px-4 hover:bg-red-300 font-medium"
-                id="btn-submit"
+                id="btn-withdraw"
               >
                 Withdraw
               </button>
