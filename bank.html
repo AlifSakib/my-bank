@@ -19,7 +19,7 @@
         <div class="grid grid-cols-3 w-9/12 mx-auto gap-4">
           <div class="bg-indigo-400 p-8 rounded-md">
             <h1 class="text-2xl">Deposite</h1>
-            <p class="text-4xl">$00</p>
+            <p class="text-4xl">$<span id="deposite-amount">00</span></p>
           </div>
           <div class="bg-pink-400 p-8 rounded-md">
             <h1 class="text-2xl">Withdraw</h1>
@@ -40,11 +40,11 @@
                 class="block px-4 w-9/12 mb-4 p-3 rounded-3xl"
                 type="email"
                 placeholder="$ Enter Deposite Amount"
-                id="email-field"
+                id="deposite-field"
               />
               <button
                 class="bg-white rounded-3xl py-3 px-4 hover:bg-red-300 font-medium"
-                id="btn-submit"
+                id="btn-deposite"
               >
                 Deposite
               </button>
@@ -70,5 +70,6 @@
         </div>
       </section>
     </main>
+    <script src="./bank.js"></script>
   </body>
 </html>
