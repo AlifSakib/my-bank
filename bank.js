@@ -17,4 +17,10 @@ deposite.addEventListener("click", function () {
 
   const newDeposite = preDepositeAmount + depositeAmount;
   currentDepositeAmount.innerText = newDeposite;
+
+  const balance = document.getElementById("balance-amount");
+  const currentBalance = parseFloat(balance.innerText);
+
+  const newBalance = currentBalance + preDepositeAmount;
+  balance.innerText = newBalance;
 });
