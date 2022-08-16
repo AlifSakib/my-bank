@@ -24,5 +24,5 @@ function setAmount(id, value) {
 
 const signout = document.getElementById("btn-signout");
 signout.addEventListener("click", function () {
-  window.location.href = "./login.html";
+  window.location.href = "./index.html";
 });
