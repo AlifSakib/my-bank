@@ -52,3 +52,8 @@ withdraw.addEventListener("click", function () {
   const newBalance = currentBalance - preWithdrawAmount;
   balance.innerText = newBalance;
 });
+
+const signout = document.getElementById("btn-signout");
+signout.addEventListener("click", function () {
+  window.location.href = "./login.html";
+});
